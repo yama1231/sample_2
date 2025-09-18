@@ -4,7 +4,7 @@ services:
 
   # PHP
   php:
-    container_name: php
+    container_name: php_2
     build:
       context: .
       dockerfile: ./docker/php/dockerfile
@@ -17,7 +17,7 @@ services:
 
   # MySQL
   db:
-    container_name: mysql_host
+    container_name: mysql_host_2
     build: 
       context: .
       dockerfile: ./docker/mysql/dockerfile
